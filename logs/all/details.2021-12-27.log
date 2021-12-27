@@ -1,0 +1,611 @@
+2021-12-27 00:23:33.904 INFO  [SpringApplicationShutdownHook] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(634) - Waiting for workers to finish.
+2021-12-27 00:23:34.026 INFO  [SpringApplicationShutdownHook] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(637) - Successfully waited for workers to finish.
+2021-12-27 00:23:34.035 INFO  [SpringApplicationShutdownHook] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(634) - Waiting for workers to finish.
+2021-12-27 00:23:34.928 INFO  [SpringApplicationShutdownHook] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(637) - Successfully waited for workers to finish.
+2021-12-27 16:20:30.433 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 75221 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 16:20:30.434 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 16:20:30.505 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 16:20:30.506 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 16:20:33.562 WARN  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(61) - Unable to start LiveReload server
+2021-12-27 16:20:33.837 INFO  [restartedMain] org.springframework.boot.web.embedded.netty.NettyWebServer.start(111) - Netty started on port 8079
+2021-12-27 16:20:33.843 INFO  [restartedMain] org.springframework.amqp.rabbit.connection.CachingConnectionFactory.connectAddresses(638) - Attempting to connect to: [localhost:5672]
+2021-12-27 16:20:34.252 INFO  [restartedMain] org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createBareConnection(589) - Created new connection: rabbitConnectionFactory#78bb16cf:0/SimpleConnection@341222ff [delegate=amqp://guest@127.0.0.1:5672/, localPort= 63424]
+2021-12-27 16:20:34.537 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarted(61) - Started LogserverApplication in 4.815 seconds (JVM running for 6.625)
+2021-12-27 16:22:16.620 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:18669
+2021-12-27 16:22:16.622 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:18694
+2021-12-27 16:22:16.623 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:19318
+2021-12-27 16:22:16.623 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:19515
+2021-12-27 16:22:16.624 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:31518
+2021-12-27 16:22:16.624 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:31566
+2021-12-27 16:22:16.624 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:31584
+2021-12-27 16:22:16.625 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:31676
+2021-12-27 16:22:16.625 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:31953
+2021-12-27 16:22:16.626 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:31971
+2021-12-27 16:22:16.626 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:32001
+2021-12-27 16:22:16.626 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:32067
+2021-12-27 16:22:16.627 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:32088
+2021-12-27 16:22:16.627 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:32167
+2021-12-27 16:22:16.627 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:32329
+2021-12-27 16:22:16.628 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:32349
+2021-12-27 16:22:16.629 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:32472
+2021-12-27 16:22:16.629 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:32535
+2021-12-27 16:22:16.630 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:32750
+2021-12-27 16:22:16.630 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:32985
+2021-12-27 16:22:16.630 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:33048
+2021-12-27 16:22:16.630 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:33165
+2021-12-27 16:22:16.630 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:33208
+2021-12-27 16:22:16.631 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:33402
+2021-12-27 16:22:16.631 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:33406
+2021-12-27 16:22:16.632 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:33508
+2021-12-27 16:22:16.632 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:33656
+2021-12-27 16:22:16.632 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:33712
+2021-12-27 16:22:16.633 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:33749
+2021-12-27 16:22:16.633 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - id:100000,queried:33800
+2021-12-27 16:24:43.139 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,18669
+2021-12-27 16:24:43.140 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,18694
+2021-12-27 16:24:43.141 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,19318
+2021-12-27 16:24:43.144 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,19515
+2021-12-27 16:24:43.151 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,31518
+2021-12-27 16:24:43.155 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,31566
+2021-12-27 16:24:43.156 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,31584
+2021-12-27 16:24:43.156 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,31676
+2021-12-27 16:24:43.172 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,31953
+2021-12-27 16:24:43.174 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,31971
+2021-12-27 16:24:43.175 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,32001
+2021-12-27 16:24:43.177 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,32067
+2021-12-27 16:24:43.181 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,32088
+2021-12-27 16:24:43.183 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,32167
+2021-12-27 16:24:43.186 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,32329
+2021-12-27 16:24:43.188 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,32349
+2021-12-27 16:24:43.190 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,32472
+2021-12-27 16:24:43.191 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,32535
+2021-12-27 16:24:43.192 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,32750
+2021-12-27 16:24:43.193 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,32985
+2021-12-27 16:24:43.194 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,33048
+2021-12-27 16:24:43.195 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,33165
+2021-12-27 16:24:43.196 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,33208
+2021-12-27 16:24:43.198 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,33402
+2021-12-27 16:24:43.200 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,33406
+2021-12-27 16:24:43.200 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,33508
+2021-12-27 16:24:43.201 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,33656
+2021-12-27 16:24:43.202 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,33712
+2021-12-27 16:24:43.211 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,33749
+2021-12-27 16:24:43.212 INFO  [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] com.example.logserver.consumer.LoginHistoryConsumer.receiveViewHistory(17) - Query,100000,33800
+2021-12-27 16:39:30.610 INFO  [SpringApplicationShutdownHook] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(634) - Waiting for workers to finish.
+2021-12-27 16:39:30.969 INFO  [SpringApplicationShutdownHook] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(637) - Successfully waited for workers to finish.
+2021-12-27 16:39:30.971 INFO  [SpringApplicationShutdownHook] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(634) - Waiting for workers to finish.
+2021-12-27 16:39:31.009 INFO  [SpringApplicationShutdownHook] org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(637) - Successfully waited for workers to finish.
+2021-12-27 16:39:42.384 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 78823 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 16:39:42.385 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 16:39:42.439 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 16:39:42.440 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 16:39:43.086 WARN  [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(166) - No MyBatis mapper was found in '[com.example.logserver]' package. Please check your configuration.
+2021-12-27 16:39:43.748 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2021-12-27 16:39:43.771 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 16:39:43.798 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2021-12-27 16:42:21.422 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 79329 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 16:42:21.424 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 16:42:21.836 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 16:42:21.837 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 16:42:22.796 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=io.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] bound.
+2021-12-27 16:42:22.805 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 16:42:22.822 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-12-27 16:43:54.261 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 79621 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 16:43:54.263 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 16:43:54.657 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 16:43:54.660 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 16:43:55.566 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=io.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] bound.
+2021-12-27 16:43:55.577 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 16:43:55.599 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-12-27 16:45:05.583 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 79847 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 16:45:05.585 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 16:45:05.967 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 16:45:05.967 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 16:45:06.933 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=io.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] bound.
+2021-12-27 16:45:06.945 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 16:45:06.970 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-12-27 16:47:53.182 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 80390 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 16:47:53.185 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 16:47:53.551 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 16:47:53.552 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 16:47:54.236 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=io.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] bound.
+2021-12-27 16:47:54.245 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 16:47:54.265 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-12-27 16:50:14.626 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 80839 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 16:50:14.628 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 16:50:14.853 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 16:50:14.854 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 16:50:15.480 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=io.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] bound.
+2021-12-27 16:50:15.492 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 16:50:15.517 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-12-27 16:50:48.340 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 80941 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 16:50:48.341 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 16:50:48.529 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 16:50:48.529 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 16:50:49.071 WARN  [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(166) - No MyBatis mapper was found in '[com.example.logserver]' package. Please check your configuration.
+2021-12-27 16:50:49.743 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.init(994) - {dataSource-1} inited
+2021-12-27 16:50:50.034 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.init(994) - {dataSource-2} inited
+2021-12-27 16:50:50.074 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.init(994) - {dataSource-3} inited
+2021-12-27 16:50:50.479 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+2021-12-27 16:50:50.481 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2029) - {dataSource-1} closing ...
+2021-12-27 16:50:50.487 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2101) - {dataSource-1} closed
+2021-12-27 16:50:50.487 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2029) - {dataSource-2} closing ...
+2021-12-27 16:50:50.488 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2101) - {dataSource-2} closed
+2021-12-27 16:50:50.488 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2029) - {dataSource-3} closing ...
+2021-12-27 16:50:50.490 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2101) - {dataSource-3} closed
+2021-12-27 16:50:50.509 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 16:50:50.534 ERROR [restartedMain] org.springframework.boot.SpringApplication.reportFailure(819) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:64)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.example.logserver.LogserverApplication.main(LogserverApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 24 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7737a580.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7737a580$$FastClassBySpringCGLIB$$d7fdaf5e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7737a580.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:74)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 40 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 46 common frames omitted
+2021-12-27 16:52:51.792 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 81320 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 16:52:51.793 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 16:52:51.987 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 16:52:51.988 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 16:52:52.591 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=io.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] bound.
+2021-12-27 16:52:52.600 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 16:52:52.619 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-12-27 16:58:52.441 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 82449 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 16:58:52.443 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 16:58:52.663 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 16:58:52.664 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 16:58:53.252 WARN  [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(166) - No MyBatis mapper was found in '[com.example.logserver]' package. Please check your configuration.
+2021-12-27 16:58:54.093 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.init(994) - {dataSource-1} inited
+2021-12-27 16:58:54.370 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.init(994) - {dataSource-2} inited
+2021-12-27 16:58:54.410 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.init(994) - {dataSource-3} inited
+2021-12-27 16:58:54.607 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+2021-12-27 16:58:54.609 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2029) - {dataSource-1} closing ...
+2021-12-27 16:58:54.617 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2101) - {dataSource-1} closed
+2021-12-27 16:58:54.618 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2029) - {dataSource-2} closing ...
+2021-12-27 16:58:54.619 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2101) - {dataSource-2} closed
+2021-12-27 16:58:54.620 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2029) - {dataSource-3} closing ...
+2021-12-27 16:58:54.621 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2101) - {dataSource-3} closed
+2021-12-27 16:58:54.639 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 16:58:54.665 ERROR [restartedMain] org.springframework.boot.SpringApplication.reportFailure(819) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:64)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.example.logserver.LogserverApplication.main(LogserverApplication.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 24 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$26962a8e.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$26962a8e$$FastClassBySpringCGLIB$$a5cbd7eb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$26962a8e.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:74)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 40 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 46 common frames omitted
+2021-12-27 17:00:50.765 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 82824 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 17:00:50.767 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 17:00:50.947 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 17:00:50.948 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 17:00:51.555 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=io.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure; factoryMethodName=dataSource; initMethodName=init; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]] bound.
+2021-12-27 17:00:51.572 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 17:00:51.589 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-12-27 17:01:18.095 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 82920 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 17:01:18.097 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 17:01:18.333 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 17:01:18.334 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 17:01:19.034 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=io.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure; factoryMethodName=dataSource; initMethodName=init; destroyMethodName=(inferred); defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]] bound.
+2021-12-27 17:01:19.046 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 17:01:19.065 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-12-27 17:01:40.740 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 82987 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 17:01:40.742 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 17:01:40.932 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 17:01:40.933 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 17:01:41.408 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=io.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] bound.
+2021-12-27 17:01:41.416 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 17:01:41.433 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-12-27 17:03:02.482 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 83238 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 17:03:02.486 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 17:03:02.899 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 17:03:02.900 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 17:03:04.034 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=io.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] bound.
+2021-12-27 17:03:04.047 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 17:03:04.091 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-12-27 17:03:04.109 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 83251 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 17:03:04.111 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 17:03:04.363 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 17:03:04.363 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 17:03:05.040 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=io.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] bound.
+2021-12-27 17:03:05.049 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 17:03:05.061 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'dataSource', defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2021-12-27 17:03:44.090 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStarting(55) - Starting LogserverApplication using Java 14.0.2 on YaohongdeMBP with PID 83379 (/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes started by yaohongding in /Users/yaohongding/Desktop/Spring Project/uideas)
+2021-12-27 17:03:44.091 INFO  [restartedMain] com.example.logserver.LogserverApplication.logStartupProfileInfo(635) - No active profile set, falling back to default profiles: default
+2021-12-27 17:03:44.338 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 17:03:44.339 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 17:03:44.845 WARN  [restartedMain] org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(166) - No MyBatis mapper was found in '[com.example.logserver]' package. Please check your configuration.
+2021-12-27 17:03:45.734 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.init(994) - {dataSource-1} inited
+2021-12-27 17:03:46.031 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.init(994) - {dataSource-2} inited
+2021-12-27 17:03:46.069 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.init(994) - {dataSource-3} inited
+2021-12-27 17:03:46.229 WARN  [restartedMain] o.s.b.w.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.refresh(591) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+2021-12-27 17:03:46.230 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2029) - {dataSource-1} closing ...
+2021-12-27 17:03:46.236 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2101) - {dataSource-1} closed
+2021-12-27 17:03:46.237 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2029) - {dataSource-2} closing ...
+2021-12-27 17:03:46.238 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2101) - {dataSource-2} closed
+2021-12-27 17:03:46.238 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2029) - {dataSource-3} closing ...
+2021-12-27 17:03:46.241 INFO  [restartedMain] com.alibaba.druid.pool.DruidDataSource.close(2101) - {dataSource-3} closed
+2021-12-27 17:03:46.275 INFO  [restartedMain] o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-27 17:03:46.310 ERROR [restartedMain] org.springframework.boot.SpringApplication.reportFailure(819) - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:64)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.example.logserver.LogserverApplication.main(LogserverApplication.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 24 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:153)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b6c3d1ba.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b6c3d1ba$$FastClassBySpringCGLIB$$679b90be.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b6c3d1ba.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/yaohongding/Desktop/Spring Project/uideas/logserver/target/classes/mapper/ViewORM.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:74)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 40 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.example.papers.entity.Paper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.papers.entity.Paper
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 46 common frames omitted

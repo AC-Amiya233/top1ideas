@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.user.mapper.HomePageMapper">
+    <insert id="insertHomePage" parameterType="com.example.user.entity.Homepage">
+        INSERT IGNORE INTO (id) VALUES (#{id})
+    </insert>
+
+    <select id="findHomepageById" resultType="com.example.user.entity.Homepage">
+    </select>
+
+    <select id="findHomepageByNickname" resultType="com.example.user.entity.Homepage">
+    </select>
+
+    <update id="updateHomePage">
+    </update>
+</mapper>

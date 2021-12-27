@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.log.mapper.ViewMapper">
+    <insert id="insertView" parameterType="com.example.log.entity.View">
+        INSERT IGNORE INTO paper.view
+        (uid, pid)
+        VALUES
+        (#{uid}, #{pid})
+    </insert>
+</mapper>

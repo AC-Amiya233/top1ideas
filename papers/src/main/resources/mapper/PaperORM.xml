@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.papers.mapper.PaperMapper">
+    <select id="findAll" resultType="com.example.papers.entity.Paper">
+        SELECT * FROM paper.paper LIMIT #{pageNumber,javaType=Integer},#{pageSize,javaType=Integer}
+    </select>
+
+    <select id="findById" resultType="com.example.papers.entity.Paper" parameterType="Long">
+        SELECT * FROM paper.paper WHERE pid = #{pid,jdbcType=BIGINT}
+    </select>
+
+    <select id="findByKeyword" parameterType="String" resultType="com.example.papers.entity.Paper">
+        SELECT * FROM paper.paper WHERE title LIKE CONCAT('%', #{keyword, jdbcType=VARCHAR}, '%')
+        LIMIT #{pageNumber,javaType=Integer},#{pageSize,javaType=Integer}
+    </select>
+
+    <select id="findByPublish" parameterType="String" resultType="com.example.papers.entity.Paper">
+        SELECT * FROM paper.paper WHERE publish LIKE CONCAT('%', #{keyword, jdbcType=VARCHAR}, '%')
+    </select>
+
+    <insert id="insertBatch" parameterType="java.util.List">
+        INSERT IGNORE INTO research_gang.paper
+        (title, authors, publish, version)
+        VALUES
+        <foreach collection = "list" item="paper" separator=",">
+            (#{paper.title}, #{paper.authors}, #{paper.publish}, #{paper.version})
+        </foreach>
+    </insert>
+
+    <update id="update" parameterType="com.example.papers.entity.Paper">
+        UPDATE research_gang.paper
+        <set>
+            <if test="title != null">
+                title = #{title, jdbcType=VARCHAR},
+            </if>
+            <if test="authors != null">
+                authors = #{authors, jdbcType=VARCHAR},
+            </if>
+            <if test="publish != null">
+                publish = #{publish,jdbcType=VARCHAR},
+            </if>
+            <if test="version != null">
+                version = #{version,jdbcType=TIMESTAMP}
+            </if>
+        </set>
+        WHERE pid = #{pid,jdbcType=BIGINT}
+    </update>
+</mapper>
